@@ -8,6 +8,6 @@ export default defineConfig({
     outDir: "dist",
   },
   preview: {
-    allowedHosts: ["fullstack-own-pipeline.onrender.com"],
+    allowedHosts: ["https://exercise21redux-anecdotes.onrender.com/"],
   },
 });
