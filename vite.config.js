@@ -1,13 +1,12 @@
-import { defineConfig } from "vite"
-import react from "@vitejs/plugin-react"
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  root: "bloglist-frontend",
+  root: 'bloglist-frontend',
+
   plugins: [react()],
+
   build: {
-    outDir: "dist",
-  },
-  preview: {
-    allowedHosts: ["exercise21redux-anecdotes.onrender.com"],
+    outDir: 'dist',
   },
 })
