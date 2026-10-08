@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    allowedHosts: ['fullstack-own-pipeline.onrender.com'],
+    allowedHosts: ['https://exercise21redux-anecdotes.onrender.com'],
     proxy: {
       '/api': {
         target: 'http://localhost:3003',
@@ -18,6 +18,6 @@ export default defineConfig({
     environment: 'jsdom',
   },
   preview: {
-    allowedHosts: ['fullstack-own-pipeline.onrender.com'],
+    allowedHosts: ['https://exercise21redux-anecdotes.onrender.com'],
   },
 })

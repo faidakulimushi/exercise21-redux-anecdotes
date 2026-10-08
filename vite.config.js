@@ -8,6 +8,6 @@ export default defineConfig({
     outDir: "dist",
   },
   preview: {
-    allowedHosts: ["https://exercise21redux-anecdotes.onrender.com/"],
+    allowedHosts: ["https://exercise21redux-anecdotes.onrender.com"],
   },
 });
